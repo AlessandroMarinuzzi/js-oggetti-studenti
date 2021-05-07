@@ -55,7 +55,6 @@ var newStudent = {
 }
 
 students.push(newStudent)
-console.log(students);
-for (var key in students[students.length - 1]) {
-    document.getElementById("allStudents").innerHTML += key + ": " + students[students.length - 1][key] + "<br>";
-}
+
+document.getElementById("newStudent").innerHTML += newStudent.Name + "<br>"
+document.getElementById("newStudent").innerHTML += newStudent.Surname + "<hr>"
