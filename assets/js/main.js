@@ -43,3 +43,16 @@ for ( var i = 0; i < students.length; i++){
     document.getElementById("allStudents").innerHTML += students[i].Name + "<br>"
     document.getElementById("allStudents").innerHTML += students[i].Surname + "<hr>"
 }
+// User must use 3 prompts() to add a new object "student" by inserting Name - Surname - Age in this order.
+var userName = prompt("Type Your Name")
+var userSurname = prompt("Type Your Surname")
+var userAge = Number(prompt("Type Your Age"))
+
+var newStudent = {
+    "Name" : userName,
+    Surname : userSurname,
+    Age : userAge
+}
+
+students.push(newStudent)
+console.log(students);
