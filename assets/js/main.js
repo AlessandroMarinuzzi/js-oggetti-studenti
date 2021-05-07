@@ -16,4 +16,25 @@ for(var key in student){
     document.getElementById("student").innerHTML += key + ": " + student[key] + "<br>"   
 }
 // Create an array to contain more objects "student".
-var students = [];
+var students = [
+    {
+        "Name" : "Leia",
+        Surname : "Skywalker",
+        Age : 26
+    },
+    {
+        "Name" : "Naruto",
+        Surname : "Uzumaki",
+        Age : 16
+    },
+    {
+        "Name" : "Sasuke",
+        Surname : "Uchiha",
+        Age : 16
+    },
+    {
+        "Name" : "Sheldon",
+        Surname : "Cooper",
+        Age : 27
+    }
+];
