@@ -38,3 +38,8 @@ var students = [
         Age : 27
     }
 ];
+// Loop on each student to display Name and Surname only.
+for ( var i = 0; i < students.length; i++){    
+    document.getElementById("allStudents").innerHTML += students[i].Name + "<br>"
+    document.getElementById("allStudents").innerHTML += students[i].Surname + "<hr>"
+}
