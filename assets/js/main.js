@@ -7,7 +7,13 @@
 
 // Create an object that lists Name - Surname - Age of a student.
 var student = {
-    firstName : "Luke",
-    lastName : "Skywalker",
-    age : 26
+    "Name" : "Luke",
+    Surname : "Skywalker",
+    Age : 26
 }
+// Display the object properties on screen through a for-in loop.
+for(var key in student){
+    document.getElementById("student").innerHTML += key + ": " + student[key] + "<br>"   
+}
+// Create an array to contain more objects "student".
+var students = [];
